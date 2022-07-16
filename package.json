@@ -1,0 +1,33 @@
+{
+  "name": "english_for_kids",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "compile:sass": "sass --watch src/scss:css",
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "parcel": "^2.6.2",
+    "parcel-transformer-html-datasrc": "^1.3.3",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "@parcel/resolver-glob": "^2.6.2",
+    "@parcel/transformer-html": "^2.6.2",
+    "@parcel/transformer-js": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2"
+  }
+}
